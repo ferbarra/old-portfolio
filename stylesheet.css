@@ -1,13 +1,53 @@
 nav {
-    background-color: black;
+    background-color: #1a1a1a;
+}
+
+nav li {
+    
 }
 
 header {
-    background-color: #0066ff;
+    background-color: #0059b3;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 #name {
+    margin-top: 50px;
+    color:white;
+    font-size: 500%;
+}
+
+header p {
     margin-top: 25px;
+    color: white;
+    font-size: 200%;
+    background-color:#1a1a1a;
+    border-radius: 10%; 
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    font-family: 'Merriweather', serif;
+}
+
+section {}
+
+.section-title {
+    font-size: 400%;
+    margin-bottom: 50px;
+}
+
+#portfolio {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#portfolio .jumbotron {
+    background-color:#404040;
+}
+
+#about {
+    background-color:#0059b3;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
