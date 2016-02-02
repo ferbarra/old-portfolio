@@ -2,20 +2,36 @@ nav {
     background-color: #1a1a1a;
 }
 
-nav li {
-    
+nav a {
+    color: white !important;
+    font-weight: bold;
 }
 
 header {
     background-color: #0059b3;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 75px;
 }
 
+
 #name {
     margin-top: 50px;
+    margin-bottom: 20px;
     color:white;
     font-size: 500%;
+}
+
+header a.btn {
+    background-color:#1a1a1a;
+    color: white;
+    font-size: 150%;
+    margin: 7px 7px 7px 7px;
+}
+
+header a.btn:hover {
+    background-color:#1a1a1a;
+    color: white;
+    transform: scale(1.1);
 }
 
 header p {
