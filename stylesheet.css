@@ -12,6 +12,10 @@ nav a:active {
     color: white !important;
     font-weight: bold;
 }
+.nav > li > a:hover,
+.nav > li > a:focus{
+    background-color: transparent;
+}
 header {
     background-color: #0059b3;
     padding-top: 100px;
