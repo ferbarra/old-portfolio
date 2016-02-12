@@ -46,7 +46,6 @@ header a.btn:visited {
     margin: 10px 10px;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.99);
 }
-
 header a.btn:hover,
 header a.btn:active {
     background-color:#1a1a1a;
@@ -64,7 +63,7 @@ hr {
     margin-bottom: 75px !important;
     color: #1a1a1a;
     background-color: #1a1a1a;
-    max-width: 500px;
+    max-width: 750px;
     height: 7px;
     
 }
@@ -75,7 +74,9 @@ hr {
 #portfolio .col-md-3 {
     margin-bottom:30px;
 }
-
+#portfolio .portfolio-slider {
+    display: none;
+}
 #portfolio h3 {
     color:#1a1a1a;
     margin-bottom:25px;
