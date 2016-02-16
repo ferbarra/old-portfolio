@@ -3,9 +3,10 @@ var currentIndex = 0,
     numberOfSlides = slides.length;
     
 function switchSlides() {
-    var slide = $('#portfolio .portfolio-slider').eq(currentIndex);
+    var currentSlide = $('#portfolio .portfolio-slider').eq(currentIndex);
     slides.hide();
-    slide.css('display', 'inline-block');
+    currentSlide.fadeIn(1000);
+    
 }
 
 $(document).ready(function () {
