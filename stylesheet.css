@@ -63,13 +63,13 @@ h1,h2,h3,h4,h5,h6,p,li {
 }
 h2 {
     font-size: 400%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 hr {
     margin-bottom: 75px !important;
     color: #1a1a1a;
     background-color: #1a1a1a;
-    max-width: 750px;
+    max-width: 400px;
     height: 7px;
     
 }
@@ -91,7 +91,7 @@ hr {
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.99);
 }
 #portfolio img:hover {
-    transform:scale(1.05);
+    transform:scale(1.02);
 }
 #portfolio button.btn.btn-lg {
     margin: 15px 10px;
@@ -171,6 +171,9 @@ hr {
 }
 .floating-label-form-group-with-focus label {
     color: #0059b3;
+}
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
 }
 #contact button {
     margin-top: 30px;
